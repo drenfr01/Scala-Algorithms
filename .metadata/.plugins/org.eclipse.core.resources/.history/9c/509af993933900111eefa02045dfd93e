@@ -1,0 +1,23 @@
+object ProblemTest {
+  
+  def main (args : Array[String]) : Unit = {
+	var sum = 0;
+	for(i <- 1 until 1000000)
+	{
+	  if(isPalindromic(i.toString().toList) && isPalindromic(i.toBinaryString.toList))
+	  {
+	    sum += i
+	  }
+	}
+  }
+
+  def isPalindromic(digits: List[Char]): Boolean = {
+    if (digits.reverse == digits) {
+      return true
+    } else {
+      return false
+    }
+
+  }
+
+}

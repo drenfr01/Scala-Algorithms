@@ -1,0 +1,16 @@
+object Problem52 {
+
+  def main(args : Array[String]) : Unit = {
+    
+    for(i <- 1 to 100;
+        j <- 2 to 6) {
+       
+      
+      
+    }
+    
+  }
+  
+  
+  //both array and hashmap have constant time lookup, right?
+}

@@ -1,0 +1,18 @@
+object Problem52 {
+
+  def main(args : Array[String]) : Unit = {
+    
+    val hasDigitArray = Array.fill(10) {False}
+    
+    for(i <- 1 to 100;
+        j <- 2 to 6) {
+       
+      
+      
+    }
+    
+  }
+  
+  
+  //both array and hashmap have constant time lookup, right?
+}

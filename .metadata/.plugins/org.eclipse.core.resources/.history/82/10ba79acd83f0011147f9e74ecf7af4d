@@ -1,0 +1,20 @@
+object Problem33 {
+  
+  def main(args : Array[String]) : Unit = {
+  
+    for(i <- 10 to 99;
+        j <- i+1 to 99)
+    {
+      var canceledFraction = cancelFraction((i.toString(), j.toString()))
+    }
+  }
+  
+  def cancelFraction(fraction : (String,String)) : (String,String) = {
+    
+    var numerator = fraction._1.toList
+    var denominator = fraction._1.toList
+    
+    
+  }
+
+}

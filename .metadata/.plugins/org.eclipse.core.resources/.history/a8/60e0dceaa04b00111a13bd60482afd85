@@ -1,0 +1,6 @@
+object foldAndReduce {
+
+  def main(args: Array[String]): Unit = {}
+
+  def sum (xs : List[Int]) = xs.reduceLeft((x,y) => x + y)
+}

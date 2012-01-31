@@ -1,0 +1,11 @@
+package sortingAlgorithms
+
+object insertionSort {
+
+  def main(args: Array[String]): Unit = {}
+
+  def iSort(xs : List[Int]) : List[Int] = xs match {
+    case List() => List()
+    case x :: xs1 => insert(x, xs1)
+  }
+}

@@ -1,0 +1,13 @@
+object ExprTest {
+
+  def main(args: Array[String]): Unit = {
+  
+  }
+    
+  def eval(e : Expr) : Int = e match {
+    case e : Number(n) => n
+    case e : Sum(e1,e2) => eval(e1) + eval(e2)
+    
+  }
+  
+}

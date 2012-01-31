@@ -1,0 +1,5 @@
+object easyPrime {
+
+  def main(args: Array[String]): Unit = {}
+
+}

@@ -1,0 +1,10 @@
+object easyPrime {
+
+  def main(args: Array[String]): Unit = {
+ 
+    
+  }
+  
+  def isPrime(n : Int) = List.range(2, n) forall (x => x % n != 0)
+
+}

@@ -1,0 +1,22 @@
+object foldAndReduce {
+
+  def main(args: Array[String]): Unit = {
+    println(sum (Range(1,10) toList))
+    println(product (Range(1,10) toList))
+  }
+
+  def sum (xs : List[Int]) = xs reduceLeft((x,y) => x + y)
+  
+  def product(xs : List[Int]) = xs reduceLeft ((x,y) => x * y)
+  
+  def reduceLeft1[A](xs : List[A])(op : (A,A) => A) : A = this match {
+    case Nil => error("Nil.reduceLeft")
+    case x :: xs => (xs foldLeft x)(op)
+  }
+  
+  def foldLeft[B](z: B)(op : (B,B) => B) : B = this match {
+    case Nil => z
+    case x :: xs => xs foldLeft op(z,x)(op)
+    
+  }
+}

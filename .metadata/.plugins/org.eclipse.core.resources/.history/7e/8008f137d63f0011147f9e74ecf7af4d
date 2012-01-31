@@ -1,0 +1,5 @@
+object Problem33 {
+  
+  def main(args : Array[String])
+
+}

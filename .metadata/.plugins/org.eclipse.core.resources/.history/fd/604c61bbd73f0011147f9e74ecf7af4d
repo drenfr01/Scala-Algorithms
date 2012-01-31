@@ -1,0 +1,17 @@
+object Problem33 {
+  
+  def main(args : Array[String]) : Unit = {
+  
+    for(i <- 10 to 99;
+        j <- 10 to 99)
+    {
+      var canceledFraction = cancelFraction((i.toString(), j.toString()))
+    }
+  }
+  
+  def cancelFraction(fraction : (String,String)) : (String,String) = {
+    
+    
+  }
+
+}

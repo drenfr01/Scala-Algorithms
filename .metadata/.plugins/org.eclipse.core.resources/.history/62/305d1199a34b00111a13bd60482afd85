@@ -1,0 +1,8 @@
+object forComprehensions {
+  
+  def main(args : Array[String]) : Unit = {
+    //for ( s ) yield e 
+    //s is a definition of sequences, generators, and filters
+  }
+
+}

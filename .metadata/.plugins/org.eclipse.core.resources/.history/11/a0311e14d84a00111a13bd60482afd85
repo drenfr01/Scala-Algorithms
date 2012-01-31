@@ -1,0 +1,7 @@
+object ExprTest {
+
+  def main(args: Array[String]): Unit = {
+    val result = new Sum(new Number(1) ,new Number(2))
+  }
+
+}

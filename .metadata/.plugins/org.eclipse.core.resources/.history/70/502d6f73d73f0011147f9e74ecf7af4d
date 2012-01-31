@@ -1,0 +1,13 @@
+object Problem33 {
+  
+  def main(args : Array[String]) : Unit = {
+  
+    var test = (1,2)
+  }
+  
+  def cancelFraction(fraction : (String,String)) : (String,String) = {
+    
+    
+  }
+
+}

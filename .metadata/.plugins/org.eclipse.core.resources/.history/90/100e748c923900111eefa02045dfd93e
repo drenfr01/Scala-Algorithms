@@ -1,0 +1,7 @@
+object ProblemTest {
+  
+  def main(args : Array[String]) : Unit = {
+    
+  }
+
+}

@@ -1,0 +1,19 @@
+object Problem29 {
+
+  def main(args: Array[String]): Unit = {
+    var termList = List[Int]()
+    var term = 0;
+    
+    for(a <- 2 to 100;
+    	b <- 2 to 100) {
+      term = a ^ b
+      termList.put(term)
+    }
+    
+    //attach terms to list, then return the size of the set
+    
+  }
+  
+  
+
+}

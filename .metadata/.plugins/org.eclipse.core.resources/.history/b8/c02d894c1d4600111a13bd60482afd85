@@ -1,0 +1,14 @@
+object Problem52 {
+
+  def main(args : Array[String]) : Unit = {
+    
+    for(i <- 1 to 100) {
+      
+    }
+    
+  }
+  
+  
+  //both array and hashmap have constant time lookup, right?
+  def hasSameDigits
+}

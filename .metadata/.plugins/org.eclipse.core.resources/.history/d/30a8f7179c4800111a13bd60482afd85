@@ -1,0 +1,13 @@
+package random
+
+object FirstClassFunctions {
+  
+  def main (args : Array[String]) : Unit = {
+    
+  }
+  
+  def sumInt(a: Int, b:Int) = {
+    if (a > b) 0 else a + sumInt(a +1, b)
+  }
+
+}

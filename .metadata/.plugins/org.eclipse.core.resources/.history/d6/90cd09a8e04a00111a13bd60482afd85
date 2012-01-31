@@ -1,0 +1,8 @@
+object scalaLists {
+
+  def main(args: Array[String]): Unit = {}
+
+  val nums = List(1,2,3,4)
+  
+  val nums1 = 1 :: (2 :: (3:: (4 :: Nil)))
+}

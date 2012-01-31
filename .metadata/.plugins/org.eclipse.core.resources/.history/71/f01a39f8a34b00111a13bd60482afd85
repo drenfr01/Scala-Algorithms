@@ -1,0 +1,11 @@
+object forComprehensions {
+  
+  def main(args : Array[String]) : Unit = {
+    //for ( s ) yield e 
+    //s is a definition of generators, definitions, and filters
+    //generator = val x<- e, where e is list valued expression
+    //definitions are val x = e
+    // filter is function that returns a boolean, false values are ommitted from consideration
+  }
+
+}

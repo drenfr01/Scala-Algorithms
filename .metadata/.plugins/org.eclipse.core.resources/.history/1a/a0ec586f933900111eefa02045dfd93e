@@ -1,0 +1,16 @@
+object ProblemTest {
+  
+  def main (args : Array[String]) : Unit = {
+    println(isPalindromic("1021".toList))
+  }
+
+  def isPalindromic(digits: List[Char]): Boolean = {
+    if (digits.reverse == digits) {
+      return true
+    } else {
+      return false
+    }
+
+  }
+
+}

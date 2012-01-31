@@ -1,0 +1,11 @@
+object ProblemTest {
+  
+  def main (args : Array[String]) : Unit = {
+    
+  }
+  
+  def isPalindromic(digits : List[String]) : Boolean = {
+    
+  }
+
+}

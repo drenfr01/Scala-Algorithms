@@ -1,0 +1,18 @@
+object ProblemTest {
+  
+  def main (args : Array[String]) : Unit = {
+    
+  }
+  
+  def isPalindromic(digits : List[Char]) : Boolean = {
+    if(digits.reverse = digits) {
+      return true
+    }
+    else {
+      return false
+    }
+    
+      
+  }
+
+}

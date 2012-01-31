@@ -1,0 +1,8 @@
+object generalMergeSort {
+
+  def main(args: Array[String]): Unit = {}
+
+  def mergeSort[A](lessThan : (A, A) => Boolean)(xs : List[A]) : List[A] = {
+    
+  }
+}

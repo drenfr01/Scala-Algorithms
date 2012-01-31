@@ -1,0 +1,11 @@
+object Problem29 {
+
+  def main(args: Array[String]): Unit = {
+    
+    //attach terms to list, then return the set
+    
+  }
+  
+  
+
+}

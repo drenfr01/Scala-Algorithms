@@ -1,0 +1,19 @@
+object forComprehensions {
+  
+  def main(args : Array[String]) : Unit = {
+    //for ( s ) yield e 
+    //s is a definition of generators, definitions, and filters
+    //generator = val x<- e, where e is list valued expression
+    //definitions are val x = e
+    // filter is function that returns a boolean, false values are ommitted from consideration
+  }
+
+  //Problem: Given a positive integer n, Þnd all pairs of
+  //positive integers i and j, where 1 á j ‚ i ‚ n such that i  j is prime
+  def solvePrimeParis(n : Int) = 
+		  for{i <- 1 to n
+		      j <- 1 to i
+		      if (isPrime (i +y))} yield {x,y}
+		      
+  def isPrime(n : Int) = List(Range(2,n)) forall (x => n % x != 0)
+}
